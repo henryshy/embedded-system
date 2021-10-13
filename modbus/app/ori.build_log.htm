@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 Acer, 123, LIC=GMZI6-DA0KG-ARWXW-Q0N38-EFB88-S6IFU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\keil mdk\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMTM.DLL
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\Study Files\嵌入式\代码\modbus\app\ori.uvprojx
+Project File Date:  12/01/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil mdk\ARM\ARMCC\Bin'
+Build target 'ori'
+compiling modbus_process.c...
+modbus_process.c(52): warning:  #177-D: variable "hi_data_addr" was declared but never referenced
+  	 uint8_t hi_data_addr=Rx[2]; //??始?莸?址??8位
+modbus_process.c(54): warning:  #177-D: variable "hi_out_amt" was declared but never referenced
+  	 uint8_t hi_out_amt=Rx[4];  //????量??8位
+modbus_process.c(55): warning:  #177-D: variable "lo_out_amt" was declared but never referenced
+  	 uint8_t lo_out_amt=Rx[5];  //????量??8位
+modbus_process.c(62): warning:  #550-D: variable "ch" was set but never used
+  	 uint8_t* ch[4];
+modbus_process.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=2772 RO-data=336 RW-data=92 ZI-data=1140  
+".\ori.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\Study Files\嵌入式\代码\modbus\app\RTE
+  D:\keil mdk\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
