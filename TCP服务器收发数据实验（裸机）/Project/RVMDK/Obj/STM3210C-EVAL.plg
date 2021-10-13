@@ -1,0 +1,296 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\Project.uvproj
+Project File Date:  09/03/2013
+
+<h2>Output:</h2>
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+compiling main.c...
+..\src\main.c(57): warning:  #223-D: function "TCP_server_init" declared implicitly
+compiling stm32f107.c...
+..\src\stm32f107.c(77): warning:  #223-D: function "USART_Configuration" declared implicitly
+compiling netconf.c...
+compiling SCI.c...
+..\src\SCI.c(20): warning:  #177-D: variable "USART_ClockInitStructure" was declared but never referenced
+..\src\SCI.c(136): warning:  #1-D: last line of file ends without a newline
+compiling TCP_SERVER.C...
+..\src\TCP_SERVER.C(23): warning:  #177-D: variable "data" was declared but never referenced
+..\src\TCP_SERVER.C(24): warning:  #177-D: variable "data_temp" was declared but never referenced
+..\src\TCP_SERVER.C(80): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_usart.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_i2c.c...
+compiling stm32_eth.c...
+compiling ethernetif.c...
+compiling tcpip.c...
+compiling api_lib.c...
+compiling netbuf.c...
+compiling netifapi.c...
+compiling netdb.c...
+compiling api_msg.c...
+compiling err.c...
+compiling stats.c...
+compiling sys.c...
+compiling tcp.c...
+compiling tcp_in.c...
+compiling tcp_out.c...
+..\..\Utilities\lwip-1.3.1\src\core\tcp_out.c(458): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\Utilities\lwip-1.3.1\src\core\tcp_out.c(871): warning:  #550-D: variable "tcphdr" was set but never used
+..\..\Utilities\lwip-1.3.1\src\core\tcp_out.c(925): warning:  #550-D: variable "tcphdr" was set but never used
+compiling udp.c...
+compiling dhcp.c...
+compiling init.c...
+compiling mem.c...
+..\..\Utilities\lwip-1.3.1\src\core\mem.c(184): warning:  #550-D: variable "mem_sem" was set but never used
+compiling memp.c...
+compiling netif.c...
+compiling pbuf.c...
+compiling raw.c...
+compiling autoip.c...
+compiling icmp.c...
+compiling igmp.c...
+compiling inet.c...
+compiling inet_chksum.c...
+compiling ip.c...
+compiling ip_addr.c...
+compiling ip_frag.c...
+compiling etharp.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_cl.s...
+linking...
+Program Size: Code=19730 RO-data=442 RW-data=188 ZI-data=38932  
+FromELF: creating hex file...
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 11 Warning(s).
+Load "G:\\STM32F107网络学习板V2.2\\发货文件\\开发板例程\\裸机版\\TCP服务器收发数据实验（裸机）\\Project\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.500V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling netconf.c...
+linking...
+Program Size: Code=19730 RO-data=442 RW-data=188 ZI-data=38932  
+FromELF: creating hex file...
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "G:\\STM32F107网络学习板V2.2\\发货文件\\开发板例程\\裸机版\\TCP服务器收发数据实验（裸机）\\Project\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.526V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling netconf.c...
+linking...
+Program Size: Code=19730 RO-data=442 RW-data=188 ZI-data=38932  
+FromELF: creating hex file...
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "G:\\STM32F107网络学习板V2.2\\发货文件\\开发板例程\\裸机版\\TCP服务器收发数据实验（裸机）\\Project\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.500V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling netconf.c...
+compiling TCP_SERVER.C...
+..\src\TCP_SERVER.C(23): warning:  #177-D: variable "data" was declared but never referenced
+..\src\TCP_SERVER.C(24): warning:  #177-D: variable "data_temp" was declared but never referenced
+..\src\TCP_SERVER.C(80): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=19730 RO-data=442 RW-data=188 ZI-data=38932  
+FromELF: creating hex file...
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "G:\\STM32F107网络学习板V2.2\\发货文件\\开发板例程\\裸机版\\TCP服务器收发数据实验（裸机）\\Project\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.474V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling TCP_SERVER.C...
+..\src\TCP_SERVER.C(23): warning:  #177-D: variable "data" was declared but never referenced
+..\src\TCP_SERVER.C(24): warning:  #177-D: variable "data_temp" was declared but never referenced
+..\src\TCP_SERVER.C(80): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=19730 RO-data=442 RW-data=188 ZI-data=38932  
+FromELF: creating hex file...
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 3 Warning(s).
+Load "G:\\STM32F107网络学习板V2.2\\发货文件\\开发板例程\\裸机版\\TCP服务器收发数据实验（裸机）\\Project\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 20 KB RAM).
+Set JLink Project File to "G:\STM32F107网络学习板V2.2\发货文件\开发板例程\裸机版\TCP服务器收发数据实验（裸机）\Project\RVMDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.539V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
