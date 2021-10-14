@@ -7,13 +7,13 @@
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/err.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip_addr.h
@@ -47,4 +47,4 @@
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/sys_arch.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/altcp_tcp.h
 .\objects\mqtt.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/altcp_tls.h
-.\objects\mqtt.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mqtt.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h

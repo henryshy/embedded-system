@@ -2,7 +2,7 @@
 .\objects\main.o: ..\..\Library\STM32_ETH_Driver\inc\stm32_eth.h
 .\objects\main.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\main.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: ..\..\Library\CMSIS\Core\CM3\system_stm32f10x.h
 .\objects\main.o: ..\Include\stm32f10x_conf.h
 .\objects\main.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -26,12 +26,12 @@
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\main.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\main.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/netif.h
 .\objects\main.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip_addr.h

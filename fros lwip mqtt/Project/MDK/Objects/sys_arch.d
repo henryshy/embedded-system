@@ -3,13 +3,13 @@
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\sys_arch.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\sys_arch.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\ports\include\lwipopts.h
 .\objects\sys_arch.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/debug.h

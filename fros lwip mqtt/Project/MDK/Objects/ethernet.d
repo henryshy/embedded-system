@@ -5,13 +5,13 @@
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/pbuf.h
@@ -39,5 +39,5 @@
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip6.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ip.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/snmp.h
-.\objects\ethernet.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ethernet.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ethernet.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ppp/ppp_opts.h

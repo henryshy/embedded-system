@@ -1,9 +1,9 @@
 .\objects\queue.o: ..\..\Utilities\FreeRTOS\queue.c
-.\objects\queue.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\queue.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\queue.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\queue.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\queue.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\queue.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\queue.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\queue.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h

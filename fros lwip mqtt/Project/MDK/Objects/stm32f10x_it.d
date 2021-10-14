@@ -2,7 +2,7 @@
 .\objects\stm32f10x_it.o: ..\Include\stm32f10x_it.h
 .\objects\stm32f10x_it.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\stm32f10x_it.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_it.o: ..\..\Library\CMSIS\Core\CM3\system_stm32f10x.h
 .\objects\stm32f10x_it.o: ..\Include\stm32f10x_conf.h
 .\objects\stm32f10x_it.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -27,12 +27,12 @@
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\stm32f10x_it.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\stm32f10x_it.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/err.h
 .\objects\stm32f10x_it.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/sys_arch.h

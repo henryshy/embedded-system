@@ -1,8 +1,8 @@
 .\objects\heap_4.o: ..\..\Utilities\FreeRTOS\heap_4.c
-.\objects\heap_4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\heap_4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\heap_4.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\heap_4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\heap_4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\heap_4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\heap_4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\heap_4.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\heap_4.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\heap_4.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h

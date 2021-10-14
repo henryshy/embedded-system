@@ -5,13 +5,13 @@
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/def.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
@@ -37,4 +37,4 @@
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dns.h
 .\objects\dns.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/dns.h
-.\objects\dns.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dns.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h

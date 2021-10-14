@@ -5,13 +5,13 @@
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/def.h
@@ -47,4 +47,4 @@
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/tcp.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/autoip.h
 .\objects\ip4.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/iana.h
-.\objects\ip4.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ip4.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
