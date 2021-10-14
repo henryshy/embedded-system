@@ -38,6 +38,11 @@
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip6.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ip.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\netconfig.o: ..\Include\netconfig.h
 .\objects\netconfig.o: ..\Include\main.h
 .\objects\netconfig.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
@@ -61,3 +66,12 @@
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/sys.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/sys_arch.h
 .\objects\netconfig.o: ..\Include\TCP_CLIENT.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\projdefs.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\portable.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\deprecated_definitions.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\portmacro.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\mpu_wrappers.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\task.h
+.\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\list.h

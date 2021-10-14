@@ -52,3 +52,4 @@
 .\objects\netif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/sys.h
 .\objects\netif.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/sys_arch.h
 .\objects\netif.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h
+.\objects\netif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
