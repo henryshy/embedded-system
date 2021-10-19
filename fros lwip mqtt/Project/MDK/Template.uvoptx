@@ -199,6 +199,11 @@
           <WinNumber>1</WinNumber>
           <ItemText>var_hdr_payload</ItemText>
         </Ww>
+        <Ww>
+          <count>5</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>netif</ItemText>
+        </Ww>
       </WatchWindow1>
       <WatchWindow2>
         <Ww>
@@ -1039,7 +1044,7 @@
 
   <Group>
     <GroupName>LwIP_api</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1166,8 +1171,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\Utilities\lwip-2.1.0\src\netif\ethernet.c</PathWithFileName>
-      <FilenameWithoutPath>ethernet.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\Utilities\lwip-2.1.0\ports\ethernetif.c</PathWithFileName>
+      <FilenameWithoutPath>ethernetif.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1178,8 +1183,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\Utilities\lwip-2.1.0\ports\ethernetif.c</PathWithFileName>
-      <FilenameWithoutPath>ethernetif.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\Utilities\lwip-2.1.0\src\netif\ethernet.c</PathWithFileName>
+      <FilenameWithoutPath>ethernet.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1187,7 +1192,7 @@
 
   <Group>
     <GroupName>LwIP_sys</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

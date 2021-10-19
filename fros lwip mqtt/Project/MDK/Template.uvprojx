@@ -756,14 +756,14 @@
           <GroupName>LwIP_netif</GroupName>
           <Files>
             <File>
-              <FileName>ethernet.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Utilities\lwip-2.1.0\src\netif\ethernet.c</FilePath>
-            </File>
-            <File>
               <FileName>ethernetif.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Utilities\lwip-2.1.0\ports\ethernetif.c</FilePath>
+            </File>
+            <File>
+              <FileName>ethernet.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Utilities\lwip-2.1.0\src\netif\ethernet.c</FilePath>
             </File>
           </Files>
         </Group>
