@@ -36,6 +36,11 @@
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/snmp.h
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
+.\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
+.\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip.h
+.\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip6.h
+.\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ip.h
+.\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/autoip.h
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/iana.h
 .\objects\etharp.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h

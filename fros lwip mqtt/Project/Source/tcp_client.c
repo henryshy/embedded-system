@@ -90,7 +90,7 @@ err_t TCP_Connected(void *arg,struct tcp_pcb *pcb,err_t err)
 {
 	uint8_t txdata[]="192.168.1.2 connected\n";
 	TCP_Client_Send_Data(pcb,txdata,sizeof(txdata));
-	printf("tcp server connected");
+	printf("tcp server connected\n");
 	return ERR_OK;
 }
 /***********************************************************************

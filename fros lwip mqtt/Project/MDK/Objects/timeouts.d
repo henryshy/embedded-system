@@ -50,6 +50,8 @@
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ieee.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
+.\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
+.\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/autoip.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/igmp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dns.h

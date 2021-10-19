@@ -307,6 +307,7 @@ void ethernetif_input( void * pvParameters )
         p=NULL;
       }
     }
+		vTaskDelay(100);
   }
 }  
       

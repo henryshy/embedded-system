@@ -46,11 +46,11 @@ static void mqtt_connection_cb(mqtt_client_t *client, void *arg, mqtt_connection
     /* Setup callback for incoming publish requests */
 		
     /* Subscribe to a topic named "my_stm32" with QoS level 1, call mqtt_sub_request_cb with result */ 
-    err = mqtt_subscribe(client, "my_stm32", 1, mqtt_sub_request_cb, arg);
-	  mqtt_set_inpub_callback(client, mqtt_incoming_publish_cb, mqtt_incoming_data_cb, arg);
+    err = mqtt_subscribe(client, "my_stm32", 1, mqtt_sub_request_cb, "my_stm32");
+	  mqtt_set_inpub_callback(client, mqtt_incoming_publish_cb, mqtt_incoming_data_cb, "my_stm32");
     example_publish(&static_client,"new client connected");
     printf("mqtt server connected\n");
-		printf("topic my_stm32 subscribed\n");
+
     if(err != ERR_OK) {
       printf("mqtt_subscribe return: %d\n", err);
     }
@@ -68,6 +68,9 @@ static void mqtt_sub_request_cb(void *arg, err_t result)
   /* Just print the result code here for simplicity, 
      normal behaviour would be to take some action if subscribe fails like 
      notifying user, retry subscribe or disconnect from server */
+	if(result==ERR_OK){
+			printf("topic %s subscribed\n",(char*)arg);;
+	}
 }
 
 static int inpub_id;
@@ -76,7 +79,7 @@ static void mqtt_incoming_publish_cb(void *arg, const char *topic, u32_t tot_len
 
   /* Decode topic string into a user defined reference */
   if(strcmp(topic, "my_stm32") == 0) {
-		 printf("Incoming publish at topic %s with total length %u\n", topic, (unsigned int)tot_len);
+		 printf("Incoming publish at topic %s with total length %u\n", (const char*)arg, (unsigned int)tot_len);
 		inpub_id=1;
   } 
   else {
@@ -93,16 +96,22 @@ static void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t f
     /* Last fragment of payload received (or whole part if payload fits receive buffer
        See MQTT_VAR_HEADER_BUFFER_LEN)  */
       if(inpub_id==1){
-				   printf("Incoming publish payload with length %d, flags %u\n", len, (unsigned int)flags);
+				   printf("Incoming publish payload from %s with length %d, flags %u\n",(const char*)arg, len, (unsigned int)flags);
 
 				printf("incoming data %s\n",data);
 				if(strcmp((const char*)data,"closelight") ==0){
 						GPIO_SetBits(GPIOC,GPIO_Pin_0);
+					GPIO_SetBits(GPIOC,GPIO_Pin_6);
+					GPIO_SetBits(GPIOC,GPIO_Pin_7);
+					GPIO_SetBits(GPIOC,GPIO_Pin_8);
 					 example_publish(&static_client,"closelight done");
            
 				}
 				if(strcmp((const char*)data,"openlight") ==0){
 						GPIO_ResetBits(GPIOC,GPIO_Pin_0);
+					GPIO_ResetBits(GPIOC,GPIO_Pin_6);
+					GPIO_ResetBits(GPIOC,GPIO_Pin_7);
+					GPIO_ResetBits(GPIOC,GPIO_Pin_8);
 					  example_publish(&static_client,"openlight done");
 				}		
 			}
@@ -139,6 +148,6 @@ static void mqtt_pub_request_cb(void *arg, err_t result)
      printf("Publish result: %d\n", result);
   }
 	else{
-		printf("publish with data:%s success",pub_data);
+		printf("publish with data:%s success\n",pub_data);
 	}
 }

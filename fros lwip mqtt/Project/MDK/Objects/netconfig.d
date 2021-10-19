@@ -38,6 +38,11 @@
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip6.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ip.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\netconfig.o: ..\Include\netconfig.h
 .\objects\netconfig.o: ..\Include\main.h
 .\objects\netconfig.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
@@ -70,3 +75,13 @@
 .\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\mpu_wrappers.h
 .\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\task.h
 .\objects\netconfig.o: ..\..\Utilities\FreeRTOS\include\list.h
+.\objects\netconfig.o: ..\Include\mqtt_client.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/apps/mqtt.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/apps/mqtt_opts.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/iana.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/apps/mqtt_priv.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/altcp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/tcp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/tcpbase.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/icmp.h
+.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/icmp.h

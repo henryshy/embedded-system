@@ -74,3 +74,5 @@
 .\objects\tcpip.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/icmp.h
 .\objects\tcpip.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/icmp.h
 .\objects\tcpip.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
+.\objects\tcpip.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
+.\objects\tcpip.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h

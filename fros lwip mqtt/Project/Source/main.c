@@ -45,7 +45,7 @@
 
 TaskHandle_t led1_tsk_handle;
 TaskHandle_t led2_tsk_handle;
-
+TaskHandle_t check_tsk_handle;
 void led1_task(void){
 
 	while(1){
@@ -69,7 +69,12 @@ void led2_task(void){
 		 vTaskDelay(100);
 	}
 }
-
+void check_tcp_server_connection(void){
+	while(1){
+		Check_TCP_Connect();
+		vTaskDelay(100);
+	}
+}
 
 
 int main(void)
@@ -77,7 +82,7 @@ int main(void)
 
   	System_Setup();
 		LWIP_INIT();
-		TCP_Client_Init(TCP_LOCAL_PORT,TCP_SERVER_PORT,TCP_SERVER_IP); 
+
 	GPIO_ResetBits(GPIOC,GPIO_Pin_0);
 	GPIO_ResetBits(GPIOC,GPIO_Pin_6);
 	GPIO_ResetBits(GPIOC,GPIO_Pin_8);
@@ -89,15 +94,26 @@ int main(void)
 //							(UBaseType_t)   2,
 //							(TaskHandle_t*) &led1_tsk_handle);
 							
-		 xTaskCreate((TaskFunction_t)led2_task,
-							(const char*)		"startled2",
+//		 xTaskCreate((TaskFunction_t)led2_task,
+//							(const char*)		"startled2",
+//							(uint16_t)			50,
+//							(void*)					NULL,
+//							(UBaseType_t)   3,
+//							(TaskHandle_t*) &led2_tsk_handle);
+
+	#if LWIP_DHCP
+	 create_dhcp_task();
+		#else			
+		TCP_Client_Init(TCP_LOCAL_PORT,TCP_SERVER_PORT,TCP_SERVER_IP); 
+		start_mqtt(MQTT_SERVER_IP);		
+	#endif
+			 xTaskCreate((TaskFunction_t)check_tcp_server_connection,
+							(const char*)		"check_connection",
 							(uint16_t)			50,
 							(void*)					NULL,
 							(UBaseType_t)   3,
-							(TaskHandle_t*) &led2_tsk_handle);
-	   //tcpip_init(NULL, NULL);					
-	//	start_mqtt(MQTT_SERVER_IP);
-							
+							(TaskHandle_t*) &check_tsk_handle);
+
 	vTaskStartScheduler();  
    while(1){
 	 }
