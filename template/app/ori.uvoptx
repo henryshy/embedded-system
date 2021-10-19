@@ -82,22 +82,22 @@
         <Book>
           <Number>0</Number>
           <Title>Base Board Schematics (MCBSTM32C)</Title>
-          <Path>D:\USER software\Keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-base-board-schematics.pdf</Path>
+          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-base-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
           <Title>Display Board Schematics (MCBSTM32C)</Title>
-          <Path>D:\USER software\Keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-display-board-schematics.pdf</Path>
+          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-display-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>2</Number>
           <Title>User Manual (MCBSTM32C)</Title>
-          <Path>D:\USER software\Keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c.chm</Path>
+          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c.chm</Path>
         </Book>
         <Book>
           <Number>3</Number>
           <Title>Quick Start (MCBSTM32C)</Title>
-          <Path>D:\USER software\Keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c_quickstart.pdf</Path>
+          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c_quickstart.pdf</Path>
         </Book>
         <Book>
           <Number>4</Number>
@@ -172,40 +172,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_CL -FS08000000 -FL080000 -FP0($$Device:STM32F107VC$Flash\STM32F10x_CL.FLM))</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>51</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134219288</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\ori\main.c\51</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>52</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\main.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <WatchWindow1>
         <Ww>
           <count>0</count>
