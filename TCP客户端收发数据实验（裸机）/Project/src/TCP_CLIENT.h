@@ -13,7 +13,7 @@
 #define TCP_LOCAL_PORT     		80
 #define TCP_SERVER_PORT    		80
 
-#define TCP_SERVER_IP   192,168,1,167//服务器IP
+#define TCP_SERVER_IP   192,168,31,115//服务器IP
 
 extern struct tcp_pcb *tcp_client_pcb;
 

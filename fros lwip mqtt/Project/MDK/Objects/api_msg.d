@@ -5,13 +5,13 @@
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/priv/api_msg.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip_addr.h
@@ -51,4 +51,4 @@
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/raw.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dns.h
 .\objects\api_msg.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/mld6.h
-.\objects\api_msg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\api_msg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h

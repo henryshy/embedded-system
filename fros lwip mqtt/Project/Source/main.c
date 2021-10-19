@@ -29,6 +29,7 @@
 #include "stm32f107.h"
 #include "TCP_CLIENT.h"
 #include "mqtt_client.h"
+#include "tcpip.h"
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -88,14 +89,14 @@ int main(void)
 //							(UBaseType_t)   2,
 //							(TaskHandle_t*) &led1_tsk_handle);
 							
-//		 xTaskCreate((TaskFunction_t)led2_task,
-//							(const char*)		"startled2",
-//							(uint16_t)			50,
-//							(void*)					NULL,
-//							(UBaseType_t)   3,
-//							(TaskHandle_t*) &led2_tsk_handle);
-							
-		start_mqtt(MQTT_SERVER_IP);
+		 xTaskCreate((TaskFunction_t)led2_task,
+							(const char*)		"startled2",
+							(uint16_t)			50,
+							(void*)					NULL,
+							(UBaseType_t)   3,
+							(TaskHandle_t*) &led2_tsk_handle);
+	   //tcpip_init(NULL, NULL);					
+	//	start_mqtt(MQTT_SERVER_IP);
 							
 	vTaskStartScheduler();  
    while(1){

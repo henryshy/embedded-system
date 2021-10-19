@@ -7,13 +7,13 @@
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\netconfig.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\netconfig.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/netif.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip_addr.h
@@ -38,11 +38,6 @@
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\netif/ethernet.h
 .\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
-.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
-.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip.h
-.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/ip6.h
-.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ip.h
-.\objects\netconfig.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\netconfig.o: ..\Include\netconfig.h
 .\objects\netconfig.o: ..\Include\main.h
 .\objects\netconfig.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h

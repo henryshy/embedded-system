@@ -60,8 +60,8 @@
 #include "semphr.h"
 
 #define netifMTU                                (1500)
-#define netifINTERFACE_TASK_STACK_SIZE		( 350 )
-#define netifINTERFACE_TASK_PRIORITY		( configMAX_PRIORITIES - 1 )
+#define netifINTERFACE_TASK_STACK_SIZE		( 400 )
+#define netifINTERFACE_TASK_PRIORITY		(configMAX_PRIORITIES-1)
 #define netifGUARD_BLOCK_TIME			( 250 )
 /* The time to block waiting for input. */
 #define emacBLOCK_TIME_WAITING_FOR_INPUT	( ( portTickType ) 100 )
@@ -74,7 +74,7 @@
 #define  ETH_ERROR              ((u32)0)
 #define  ETH_SUCCESS            ((u32)1)
 
-static struct netif *s_pxNetIf = NULL;
+extern struct netif netif;
 xSemaphoreHandle s_xSemaphore = NULL;
           
 #define ETH_RXBUFNB        4
@@ -135,8 +135,6 @@ static void low_level_init(struct netif *netif)
   /* Accept broadcast address and ARP traffic */
   netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP;
   
-  s_pxNetIf =netif;
- 
   /* create binary semaphore used for informing ethernetif of frame reception */
   if (s_xSemaphore == NULL)
   {
@@ -171,7 +169,7 @@ static void low_level_init(struct netif *netif)
   
   /* create the task that handles the ETH_MAC */
   xTaskCreate(ethernetif_input, 
-	           (const char*) "Eth_if",
+	           (const char*) "ethernetif_tsk",
 							 netifINTERFACE_TASK_STACK_SIZE, 
 						   NULL,
               netifINTERFACE_TASK_PRIORITY,NULL);
@@ -302,14 +300,13 @@ void ethernetif_input( void * pvParameters )
   {
     if (xSemaphoreTake( s_xSemaphore, emacBLOCK_TIME_WAITING_FOR_INPUT)==pdTRUE)
     {
-      p = low_level_input( s_pxNetIf );
-      if (ERR_OK != s_pxNetIf->input( p, s_pxNetIf))
+      p = low_level_input( &netif );
+      if (ERR_OK != netif.input( p, &netif))
       {
         pbuf_free(p);
         p=NULL;
       }
     }
-
   }
 }  
       

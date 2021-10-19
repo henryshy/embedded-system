@@ -28,7 +28,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 void LWIP_INIT(void);
-
+#if LWIP_DHCP
+void create_dhcp_task(void);
+void dhcp_task(void);
+#endif
 
 
 #ifdef __cplusplus

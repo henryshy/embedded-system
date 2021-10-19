@@ -11,9 +11,9 @@
 
 
 #define TCP_LOCAL_PORT     		80
-#define TCP_SERVER_PORT    		8083
+#define TCP_SERVER_PORT    		80
 
-#define TCP_SERVER_IP   192,168,1,15////服务器IP
+#define TCP_SERVER_IP   192,168,31,115////服务器IP
  #define MQTT_SERVER_IP TCP_SERVER_IP
 
 extern struct tcp_pcb *tcp_client_pcb;

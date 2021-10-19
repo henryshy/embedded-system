@@ -5,13 +5,13 @@
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\timeouts.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\timeouts.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/timeouts.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/err.h
@@ -50,8 +50,6 @@
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/ieee.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/etharp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
-.\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
-.\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/udp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/autoip.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/igmp.h
 .\objects\timeouts.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dns.h

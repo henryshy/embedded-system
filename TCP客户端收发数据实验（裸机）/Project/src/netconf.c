@@ -87,21 +87,21 @@ void LwIP_Init(void)
   netmask.addr = 0;
   gw.addr = 0;
   
-  if(!STM_EVAL_PBGetState(Button_KEY))
-  {	
-	Server = SELECTED;
-  }
-  else
-  {
-    macaddress[5]=CLIENTMAC6;
-	
-	Server = NOT_SELECTED;
-  }
+//  if(!STM_EVAL_PBGetState(Button_KEY))
+//  {	
+//	Server = SELECTED;
+//  }
+//  else
+//  {
+//    macaddress[5]=CLIENTMAC6;
+//	
+//	Server = NOT_SELECTED;
+//  }
 
 #else  //¹Ì¶¨ip£¿
-    IP4_ADDR(&ipaddr, 192, 168, 1, 252);
+    IP4_ADDR(&ipaddr, 192, 168, 31, 252);
     IP4_ADDR(&netmask, 255, 255, 255, 0);
-    IP4_ADDR(&gw, 192, 168, 1, 1);
+    IP4_ADDR(&gw, 192, 168, 31, 1);
 #endif
 
   Set_MAC_Address(macaddress);
@@ -216,33 +216,33 @@ void Display_Periodic_Handle(__IO uint32_t localtime)
 
       /* Display the new IP address */
 #if LWIP_DHCP
-      if (netif.flags & NETIF_FLAG_DHCP)
-      {        		   	
-       
-	    iptab[0] = (uint8_t)(IPaddress >> 24);
-        iptab[1] = (uint8_t)(IPaddress >> 16);
-        iptab[2] = (uint8_t)(IPaddress >> 8);
-        iptab[3] = (uint8_t)(IPaddress);
+//      if (netif.flags & NETIF_FLAG_DHCP)
+//      {        		   	
+//       
+//	    iptab[0] = (uint8_t)(IPaddress >> 24);
+//        iptab[1] = (uint8_t)(IPaddress >> 16);
+//        iptab[2] = (uint8_t)(IPaddress >> 8);
+//        iptab[3] = (uint8_t)(IPaddress);
 
-	    if(Server)
-	    {
-		  /* Initialize the server application */
-	      server_init(); 
-	    }
-	    else
-	    {
+//	    if(Server)
+//	    {
+//		  /* Initialize the server application */
+//	      server_init(); 
+//	    }
+//	    else
+//	    {
 
-		  /* Configure the IO Expander */
-          IOE_Config(); 
-      
-          /* Enable the Touch Screen and Joystick interrupts */
-          IOE_ITConfig(IOE_ITSRC_TSC);
-		  
-		  /* Initialize the client application */
-	      client_init();
-	    }	        
-      }
-      else
+//		  /* Configure the IO Expander */
+//          IOE_Config(); 
+//      
+//          /* Enable the Touch Screen and Joystick interrupts */
+//          IOE_ITConfig(IOE_ITSRC_TSC);
+//		  
+//		  /* Initialize the client application */
+//	      client_init();
+//	    }	        
+//      }
+//      else
 #endif
       {
 	  	;
@@ -251,32 +251,32 @@ void Display_Periodic_Handle(__IO uint32_t localtime)
 
 #if LWIP_DHCP
     
-    else if (IPaddress == 0)
-    {
-      /* We still waiting for the DHCP server */
+//    else if (IPaddress == 0)
+//    {
+//      /* We still waiting for the DHCP server */
 
-      LedToggle &= 3;
+//      LedToggle &= 3;
 
-      STM_EVAL_LEDToggle((Led_TypeDef)(LedToggle++));
+//      STM_EVAL_LEDToggle((Led_TypeDef)(LedToggle++));
 
-      /* If no response from a DHCP server for MAX_DHCP_TRIES times */
-	  /* stop the dhcp client and set a static IP address */
-	  if (netif.dhcp->tries > MAX_DHCP_TRIES)
-      {
-        struct ip_addr ipaddr;
-        struct ip_addr netmask;
-        struct ip_addr gw;
-     
-        dhcp_stop(&netif);
+//      /* If no response from a DHCP server for MAX_DHCP_TRIES times */
+//	  /* stop the dhcp client and set a static IP address */
+//	  if (netif.dhcp->tries > MAX_DHCP_TRIES)
+//      {
+//        struct ip_addr ipaddr;
+//        struct ip_addr netmask;
+//        struct ip_addr gw;
+//     
+//        dhcp_stop(&netif);
 
-        IP4_ADDR(&ipaddr, 192, 168, 1, 252);
-        IP4_ADDR(&netmask, 255, 255, 255, 0);
-        IP4_ADDR(&gw, 192, 168, 1, 1);
+//        IP4_ADDR(&ipaddr, 192, 168, 1, 252);
+//        IP4_ADDR(&netmask, 255, 255, 255, 0);
+//        IP4_ADDR(&gw, 192, 168, 1, 1);
 
-        netif_set_addr(&netif, &ipaddr , &netmask, &gw);
+//        netif_set_addr(&netif, &ipaddr , &netmask, &gw);
 
-      }
-    }
+//      }
+//    }
 #endif
   } 
 }

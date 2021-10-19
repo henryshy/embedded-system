@@ -5,13 +5,13 @@
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/udp.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/pbuf.h
@@ -42,4 +42,4 @@
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/icmp6.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/snmp.h
 .\objects\udp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/dhcp.h
-.\objects\udp.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\udp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h

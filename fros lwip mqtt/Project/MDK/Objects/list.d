@@ -1,8 +1,8 @@
 .\objects\list.o: ..\..\Utilities\FreeRTOS\list.c
-.\objects\list.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\list.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\list.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\list.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\list.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\list.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\list.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\list.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\list.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\list.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h

@@ -5,13 +5,13 @@
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/priv/tcp_priv.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/tcp.h
@@ -40,4 +40,4 @@
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/icmp.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/tcp.h
 .\objects\tcp_out.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/inet_chksum.h
-.\objects\tcp_out.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tcp_out.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h

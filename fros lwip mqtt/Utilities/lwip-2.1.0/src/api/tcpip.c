@@ -53,7 +53,7 @@
 #include "task.h"
 #include "TCP_Client.h"
 #include "lwip/tcp.h"
-
+#include "lwip/dhcp.h"
 #define TCPIP_MSG_VAR_REF(name)     API_VAR_REF(name)
 #define TCPIP_MSG_VAR_DECLARE(name) API_VAR_DECLARE(struct tcpip_msg, name)
 #define TCPIP_MSG_VAR_ALLOC(name)   API_VAR_ALLOC(struct tcpip_msg, MEMP_TCPIP_MSG_API, name, ERR_MEM)
@@ -127,6 +127,7 @@ again:
  *
  * @param arg unused argument
  */
+extern struct netif netif;
 static void
 tcpip_thread(void *arg)
 {

@@ -1,7 +1,7 @@
 .\objects\port.o: ..\..\Utilities\FreeRTOS\port.c
 .\objects\port.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\port.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\port.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\port.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\port.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\port.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\port.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\port.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h
