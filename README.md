@@ -2,7 +2,7 @@
 
 environment：keil mdk518
 
-##stm32f107
+## stm32f107
 ### FreeRTOS+LwIP
 移植freertos系统和lwip协议栈，ping通
 
@@ -31,7 +31,6 @@ environment：keil mdk518
 移植freertos和lwip，并实现了与tcp server的通讯
 
 ## stm32f407
-
 ### 贪吃龙
 一个基于文件系统和图像解码算法的贪吃蛇游戏，读取sd卡上的龙头、龙身、粽子图片文件并解码来生成游戏画面
 
