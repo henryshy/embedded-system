@@ -25,7 +25,8 @@ environment：keil mdk518
 实现usart2的串口通讯
 
 ### 基于FreeRTOS和LWIP的MQTT Client
-移植freertos和lwip，并实现了mqtt client，可以连接mqtt server
+移植freertos和lwip，并实现了mqtt client，可以连接mqtt server。
+实现dhcp和网线热插拔，自动检查tcp连接，串口实时打印信息。
 
 ### 基于FreeRTOS和LWIP的TCP Client
 移植freertos和lwip，并实现了与tcp server的通讯
