@@ -1,0 +1,20 @@
+.\objects\flash.o: ..\Source\flash.c
+.\objects\flash.o: ..\Include\stm32f107.h
+.\objects\flash.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
+.\objects\flash.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h
+.\objects\flash.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: ..\..\Library\CMSIS\Core\CM3\system_stm32f10x.h
+.\objects\flash.o: ..\Include\stm32f10x_conf.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\objects\flash.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\objects\flash.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\objects\flash.o: ..\Include\main.h
+.\objects\flash.o: ..\Include\flash.h

@@ -1,7 +1,7 @@
 .\system_stm32f10x.o: ..\stm32lib\m3\system_stm32f10x.c
 .\system_stm32f10x.o: ..\stm32lib\m3\stm32f10x.h
 .\system_stm32f10x.o: ..\stm32lib\m3\core_cm3.h
-.\system_stm32f10x.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\system_stm32f10x.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
 .\system_stm32f10x.o: ..\stm32lib\m3\system_stm32f10x.h
 .\system_stm32f10x.o: ..\app\stm32f10x_conf.h
 .\system_stm32f10x.o: ..\stm32lib\inc\stm32f10x_adc.h

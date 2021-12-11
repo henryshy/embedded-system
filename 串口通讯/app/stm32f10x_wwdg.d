@@ -2,7 +2,7 @@
 .\stm32f10x_wwdg.o: ..\stm32lib\inc\stm32f10x_wwdg.h
 .\stm32f10x_wwdg.o: ..\stm32lib\m3\stm32f10x.h
 .\stm32f10x_wwdg.o: ..\stm32lib\m3\core_cm3.h
-.\stm32f10x_wwdg.o: C:\user software\utilities\Keil V5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32f10x_wwdg.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32f10x_wwdg.o: ..\stm32lib\m3\system_stm32f10x.h
 .\stm32f10x_wwdg.o: ..\app\stm32f10x_conf.h
 .\stm32f10x_wwdg.o: ..\stm32lib\inc\stm32f10x_adc.h
