@@ -24,6 +24,9 @@ environment：keil mdk518
 ### 串口通讯
 实现usart2的串口通讯
 
+### SPI to FLASH
+使用spi总线对flash进行读写操作，利用串口来验证
+
 ### 基于FreeRTOS和LWIP的MQTT Client
 移植freertos和lwip，并实现了mqtt client，可以连接mqtt server。
 实现dhcp和网线热插拔，自动检查tcp连接，串口实时打印信息。
