@@ -69,17 +69,7 @@ void led2_task(void){
 		 vTaskDelay(100);
 	}
 }
-//void check_connect(void){
-//	struct tcp_pcb* pcb;
-//	while(1){
-//		pcb=Check_TCP_Connect();
-//		if(pcb==0){
-//		TCP_Client_Init(TCP_LOCAL_PORT,TCP_SERVER_PORT,TCP_SERVER_IP); //重新连接
 
-//		}
-//		vTaskDelay(100);
-//	}
-//}
 
 
 
@@ -104,14 +94,6 @@ int main(void)
 							(UBaseType_t)   4,
 							(TaskHandle_t*) &led2_tsk_handle);
 							
-							
-//    xTaskCreate((TaskFunction_t)check_connect,
-//							(const char*)		"startcheck",
-//							(uint16_t)			80,
-//							(void*)					NULL,
-//							(UBaseType_t)   5,
-//							(TaskHandle_t*) &tcp_check_tsk_handle);
-//							
 							
 	vTaskStartScheduler();  
    while(1){

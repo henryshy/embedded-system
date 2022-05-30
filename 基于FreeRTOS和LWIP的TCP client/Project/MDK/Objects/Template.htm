@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Template.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Template.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Fri Sep 24 18:40:12 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Mon May 30 12:21:03 2022
 <BR><P>
 <H3>Maximum Stack Usage =        696 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -455,7 +455,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
 </UL>
-<P><STRONG><a name="[162]"></a>Check_TCP_Connect</STRONG> (Thumb, 52 bytes, Stack size 0 bytes, tcp_client.o(i.Check_TCP_Connect))
+<P><STRONG><a name="[162]"></a>Check_TCP_Connect</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, tcp_client.o(i.Check_TCP_Connect))
 <BR><BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tcpip_thread
 </UL>
 
@@ -804,8 +804,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TCP_Connected
 </UL>
 
-<P><STRONG><a name="[4b]"></a>TCP_Connected</STRONG> (Thumb, 32 bytes, Stack size 32 bytes, tcp_client.o(i.TCP_Connected))
-<BR><BR>[Stack]<UL><LI>Max Depth = 504<LI>Call Chain = TCP_Connected &rArr; TCP_Client_Send_Data &rArr; tcp_output &rArr; tcp_send_empty_ack &rArr; tcp_output_control_segment &rArr; ip4_output_if &rArr; ip4_output_if_src &rArr; ip4_frag &rArr; pbuf_alloc &rArr; pbuf_free &rArr; mem_free &rArr; sys_mutex_unlock &rArr; xQueueGiveMutexRecursive &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+<P><STRONG><a name="[4b]"></a>TCP_Connected</STRONG> (Thumb, 32 bytes, Stack size 40 bytes, tcp_client.o(i.TCP_Connected))
+<BR><BR>[Stack]<UL><LI>Max Depth = 512<LI>Call Chain = TCP_Connected &rArr; TCP_Client_Send_Data &rArr; tcp_output &rArr; tcp_send_empty_ack &rArr; tcp_output_control_segment &rArr; ip4_output_if &rArr; ip4_output_if_src &rArr; ip4_frag &rArr; pbuf_alloc &rArr; pbuf_free &rArr; mem_free &rArr; sys_mutex_unlock &rArr; xQueueGiveMutexRecursive &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TCP_Client_Send_Data
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
@@ -1124,7 +1124,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tcpip_init
 </UL>
 
-<P><STRONG><a name="[47]"></a>main</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, main.o(i.main))
+<P><STRONG><a name="[47]"></a>main</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 696<LI>Call Chain = main &rArr; LWIP_INIT &rArr; netif_add &rArr; netif_set_addr &rArr; netif_do_set_ipaddr &rArr; netif_do_ip_addr_changed &rArr; tcp_netif_ip_addr_changed &rArr; tcp_netif_ip_addr_changed_pcblist &rArr; tcp_abort &rArr; tcp_abandon &rArr; tcp_pcb_remove &rArr; tcp_output &rArr; tcp_send_empty_ack &rArr; tcp_output_control_segment &rArr; ip4_output_if &rArr; ip4_output_if_src &rArr; ip4_frag &rArr; pbuf_alloc &rArr; pbuf_free &rArr; mem_free &rArr; sys_mutex_unlock &rArr; xQueueGiveMutexRecursive &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
 <BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
@@ -2794,8 +2794,8 @@ Local Symbols
 <BR>[Calls]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_timeout
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tcp_tmr
 </UL>
-<BR>[Address Reference Count : 2]<UL><LI> timeouts.o(i.tcp_timer_needed)
-<LI> timeouts.o(i.tcpip_tcp_timer)
+<BR>[Address Reference Count : 2]<UL><LI> timeouts.o(i.tcpip_tcp_timer)
+<LI> timeouts.o(i.tcp_timer_needed)
 </UL>
 <P><STRONG><a name="[ca]"></a>ip_frag_free_pbuf_custom_ref</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, ip4_frag.o(i.ip_frag_free_pbuf_custom_ref))
 <BR><BR>[Calls]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memp_free
@@ -2935,8 +2935,8 @@ Local Symbols
 <P><STRONG><a name="[58]"></a>tcpip_thread</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, tcpip.o(i.tcpip_thread))
 <BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = tcpip_thread &rArr; tcpip_thread_handle_msg &rArr; pbuf_free &rArr; mem_free &rArr; sys_mutex_unlock &rArr; xQueueGiveMutexRecursive &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
-<LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Check_TCP_Connect
+<BR>[Calls]<UL><LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Check_TCP_Connect
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
 <LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_timeouts_sleeptime
 <LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_check_timeouts
 <LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_arch_mbox_fetch

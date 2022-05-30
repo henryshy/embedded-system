@@ -5,13 +5,13 @@
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/def.h
 .\objects\ethernetif.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/mem.h
@@ -57,7 +57,7 @@
 .\objects\ethernetif.o: ..\..\Library\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\ethernetif.o: ..\Include\stm32f107.h
 .\objects\ethernetif.o: ..\..\Library\STM32_ETH_Driver\inc\stm32_eth.h
-.\objects\ethernetif.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ethernetif.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\string.h
 .\objects\ethernetif.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
 .\objects\ethernetif.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\ethernetif.o: ..\..\Utilities\FreeRTOS\include\projdefs.h

@@ -5,13 +5,13 @@
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/arch.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cc.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\ports\include\arch/cpu.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\limits.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\ctype.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\limits.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\ctype.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/opt.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/def.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/mem.h
@@ -40,4 +40,4 @@
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/priv/tcp_priv.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/prot/tcp.h
 .\objects\tcp.o: ..\..\Utilities\lwip-2.1.0\src\include\lwip/nd6.h
-.\objects\tcp.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tcp.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\string.h

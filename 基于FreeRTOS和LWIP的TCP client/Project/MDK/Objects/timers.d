@@ -1,8 +1,8 @@
 .\objects\timers.o: ..\..\Utilities\FreeRTOS\timers.c
-.\objects\timers.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timers.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\timers.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\timers.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\timers.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timers.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timers.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\timers.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\timers.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\timers.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h

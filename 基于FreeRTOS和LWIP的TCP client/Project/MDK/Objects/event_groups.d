@@ -1,8 +1,8 @@
 .\objects\event_groups.o: ..\..\Utilities\FreeRTOS\event_groups.c
-.\objects\event_groups.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\event_groups.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\event_groups.o: ..\..\Utilities\FreeRTOS\include\FreeRTOS.h
-.\objects\event_groups.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\event_groups.o: D:\study\keil mdk518\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\event_groups.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\event_groups.o: E:\Keil MDK518\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\event_groups.o: ..\..\Utilities\FreeRTOS\include\FreeRTOSConfig.h
 .\objects\event_groups.o: ..\..\Library\CMSIS\Core\CM3\stm32f10x.h
 .\objects\event_groups.o: ..\..\Library\CMSIS\Core\CM3\core_cm3.h

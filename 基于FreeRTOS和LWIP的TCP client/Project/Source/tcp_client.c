@@ -1,39 +1,17 @@
-/***********************************************************************
-文件名称：TCP_CLIENT.C
-功    能：完成TCP的客户端的数据收发
-编写时间：2013.4.25
-编 写 人：
-注    意：
-***********************************************************************/
+
 #include "stm32_eth.h"
 #include "lwip/tcp.h"
 #include "TCP_CLIENT.h"
 
 struct tcp_pcb *tcp_client_pcb;
 unsigned char connect_flag = 0;
-/***********************************************************************
-函数名称：Delay_s(unsigned long ulVal)
-功    能：利用循环产生一定的延时
-输入参数：
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：
-***********************************************************************/
+
 void Delay_s(unsigned long ulVal) /* 利用循环产生一定的延时 */
 {
 	while ( --ulVal != 0 );
 }
 
-/***********************************************************************
-函数名称：void TCP_Client_Send_Data(unsigned char *buff)
-功    能：TC[客户端发送数据函数
-输入参数：
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：for(cpcb = tcp_active_pcbs;cpcb != NULL; cpcb = cpcb->next) 
-***********************************************************************/
+
 err_t TCP_Client_Send_Data(struct tcp_pcb *cpcb,unsigned char *buff,unsigned int length)
 {
 	err_t err;
@@ -44,15 +22,6 @@ err_t TCP_Client_Send_Data(struct tcp_pcb *cpcb,unsigned char *buff,unsigned int
 	return err;					
 }
 
-/***********************************************************************
-函数名称：Check_TCP_Connect(void)
-功    能：检查连接
-输入参数：
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：for(cpcb = tcp_active_pcbs;cpcb != NULL; cpcb = cpcb->next) 
-***********************************************************************/\
 struct tcp_pcb *Check_TCP_Connect(void)
 {
 	struct tcp_pcb *cpcb = 0;
@@ -77,30 +46,14 @@ struct tcp_pcb *Check_TCP_Connect(void)
 	}
 	return cpcb;	
 }
-/***********************************************************************
-函数名称：err_t RS232_TCP_Connected(void *arg,struct tcp_pcb *pcb,err_t err)
-功    能：完成RS232到TCP的数据发送
-输入参数：
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：这是一个回调函数，当TCP客户端请求的连接建立时被调用
-***********************************************************************/
+
 err_t TCP_Connected(void *arg,struct tcp_pcb *pcb,err_t err)
 {
-	uint8_t txdata[]="192.168.1.2 connected\n";
+	uint8_t txdata[]="192.168.31.66 connected\n";
 	TCP_Client_Send_Data(pcb,txdata,sizeof(txdata));
 	return ERR_OK;
 }
-/***********************************************************************
-函数名称：TCP_Client_Recv(void *arg, struct tcp_pcb *pcb,struct pbuf *p,err_t err)
-功    能：tcp客户端接收数据回调函数
-输入参数：
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：这是一个回调函数，当TCP服务器发来数据时调用
-***********************************************************************/
+
 err_t  TCP_Client_Recv(void *arg, struct tcp_pcb *pcb,struct pbuf *p,err_t err)
 {
 
@@ -118,15 +71,7 @@ err_t  TCP_Client_Recv(void *arg, struct tcp_pcb *pcb,struct pbuf *p,err_t err)
 	err = ERR_OK;
 	return err;	
 }
-/***********************************************************************
-函数名称：TCP_Client_Init(u16_t local_port,u16_t remote_port,unsigned char a,unsigned char b,unsigned char c,unsigned char d)
-功    能：tcp客户端初始化
-输入参数：local_port本地端口号；remote_port：目标端口号；a,b,c,d：服务器ip
-输出参数：
-编写时间：2013.4.25
-编 写 人：
-注    意：
-***********************************************************************/
+
 void TCP_Client_Init(u16_t local_port,u16_t remote_port,unsigned char a,unsigned char b,unsigned char c,unsigned char d)
 {
 

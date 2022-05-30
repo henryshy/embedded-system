@@ -18,9 +18,9 @@ void LWIP_INIT(){
 	struct ip4_addr ipaddr,netmask,gw;
 	mem_init();
 	memp_init();
-	IP4_ADDR(&ipaddr, 192,168,1,2);
+	IP4_ADDR(&ipaddr, 192,168,31,66);
   IP4_ADDR(&netmask, 255, 255, 255, 0);
-  IP4_ADDR(&gw, 192, 168, 1, 1);
+  IP4_ADDR(&gw, 192, 168, 31, 1);
 	 tcpip_init(NULL, NULL);
 	netif_add(&netif, &ipaddr, &netmask, &gw, NULL, &ethernetif_init, &tcpip_input);
 
