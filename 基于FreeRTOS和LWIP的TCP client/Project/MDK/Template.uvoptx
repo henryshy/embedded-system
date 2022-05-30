@@ -82,22 +82,22 @@
         <Book>
           <Number>0</Number>
           <Title>Base Board Schematics (MCBSTM32C)</Title>
-          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-base-board-schematics.pdf</Path>
+          <Path>E:\Keil MDK518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-base-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
           <Title>Display Board Schematics (MCBSTM32C)</Title>
-          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-display-board-schematics.pdf</Path>
+          <Path>E:\Keil MDK518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c-display-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>2</Number>
           <Title>User Manual (MCBSTM32C)</Title>
-          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c.chm</Path>
+          <Path>E:\Keil MDK518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c.chm</Path>
         </Book>
         <Book>
           <Number>3</Number>
           <Title>Quick Start (MCBSTM32C)</Title>
-          <Path>D:\study\keil mdk518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c_quickstart.pdf</Path>
+          <Path>E:\Keil MDK518\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Documents\mcbstm32c_quickstart.pdf</Path>
         </Book>
         <Book>
           <Number>4</Number>
@@ -143,6 +143,10 @@
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
+          <Key>DLGUARM</Key>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
           <Key>ARMRTXEVENTFLAGS</Key>
           <Name>-L70 -Z18 -C0 -M0 -T1</Name>
         </SetRegEntry>
@@ -167,104 +171,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_CL -FS08000000 -FL080000 -FP0($$Device:STM32F107VC$Flash\STM32F10x_CL.FLM))</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>74</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218860</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Project\Source\tcp_client.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../Source/tcp_client.c\74</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>70</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218848</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Project\Source\tcp_client.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../Source/tcp_client.c\70</Expression>
-        </Bp>
-        <Bp>
-          <Number>2</Number>
-          <Type>0</Type>
-          <LineNumber>59</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218824</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Project\Source\tcp_client.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../Source/tcp_client.c\59</Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>59</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218828</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Project\Source\tcp_client.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../Source/tcp_client.c\59</Expression>
-        </Bp>
-        <Bp>
-          <Number>4</Number>
-          <Type>0</Type>
-          <LineNumber>57</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134218834</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Project\Source\tcp_client.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../Source/tcp_client.c\57</Expression>
-        </Bp>
-        <Bp>
-          <Number>5</Number>
-          <Type>0</Type>
-          <LineNumber>140</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134241596</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>C:\Users\12719\Desktop\鍩轰簬FreeRTOS鍜孡WIP鐨凾CP client\Utilities\lwip-2.1.0\src\api\tcpip.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\Template\../../Utilities/lwip-2.1.0/src/api/tcpip.c\140</Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <WatchWindow1>
         <Ww>
           <count>0</count>
